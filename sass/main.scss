@@ -13,3 +13,28 @@
 @import './components/icon-social';
 @import './components/logo-our-clients';
 @import './components/footer';
+
+/* цвет текста
+черный основной #212121
+белый #FFFFFF
+бледносерый добавочный #757575 
+акцентный голубой для текста и оформления #2196F3 
+цвета баннера и футера #2F303A
+для кнопок и секции светло серый #F5F4FA */
+/* нормалайз не дает нужного эффеккта по этому использую это html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
+/* About all document */
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+  padding-inline-start: 0px;
+}
