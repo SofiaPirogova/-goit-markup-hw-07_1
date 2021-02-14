@@ -17,8 +17,8 @@
     />
     <!-- Cтили нормализации ссылка на внутренний источник в папке old -->
     <link rel="stylesheet" href="./CSS/normalize.css" />
-    <!-- <link rel="stylesheet" href="./CSS/main.min.css" /> -->
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
+    <!-- <link rel="stylesheet" href="./CSS/style.css" /> -->
   </head>
 
   <body>
@@ -47,7 +47,7 @@
 
         <ul class="contacts list">
           <li>
-            <a href="mailto:info@devstudio.com" class="link"
+            <a href="mailto:info@devstudio.com" class="link contacts-position"
               ><svg class="icon-contacts" width="16" height="12">
                 <use href="./images/svg/sprite.svg#icon-envelope"></use>
               </svg>
@@ -55,7 +55,9 @@
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="link"
+            <a
+              href="tel:+380961111111"
+              class="link font-contacts contacts-position"
               ><svg class="icon-contacts" width="10" height="16">
                 <use href="./images/svg/sprite.svg#icon-phone"></use>
               </svg>
@@ -69,7 +71,9 @@
     <main>
       <section class="banner">
         <div class="banner-center">
-          <h1 class="tagline">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="tagline tagline-position">
+            Эффективные решения для вашего бизнеса
+          </h1>
           <a href="#" class="order btn link" data-modal-open>Заказать услугу</a>
         </div>
       </section>
@@ -86,7 +90,9 @@
                 ></use>
               </svg>
             </div>
-            <h3 class="advantages-about">Внимание к деталям</h3>
+            <h3 class="advantages-about heading-uppercase">
+              Внимание к деталям
+            </h3>
             <p class="desc">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -98,7 +104,7 @@
                 <use href="./images/svg/sprite.svg#icon-advantages-clock"></use>
               </svg>
             </div>
-            <h3 class="advantages-about">Пунктуальность</h3>
+            <h3 class="advantages-about heading-uppercase">Пунктуальность</h3>
             <p class="desc">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -112,7 +118,7 @@
                 ></use>
               </svg>
             </div>
-            <h3 class="advantages-about">Планирование</h3>
+            <h3 class="advantages-about heading-uppercase">Планирование</h3>
             <p class="desc">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -126,7 +132,9 @@
                 ></use>
               </svg>
             </div>
-            <h3 class="advantages-about">Современные технологии</h3>
+            <h3 class="advantages-about heading-uppercase">
+              Современные технологии
+            </h3>
             <p class="desc">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -145,7 +153,9 @@
                 alt="Печатает на клавиатуре"
                 width="370"
             /></a>
-            <div class="whatwedo-name whatwedo-name-position">
+            <div
+              class="whatwedo-name whatwedo-name-position heading-uppercase heading-uppercase-white whatwedo-name-text"
+            >
               Декстопные приложения
             </div>
           </li>
@@ -156,7 +166,9 @@
                 alt="Смотрит на телефон и на экран"
                 width="370"
             /></a>
-            <div class="whatwedo-name whatwedo-name-position">
+            <div
+              class="whatwedo-name whatwedo-name-position heading-uppercase heading-uppercase-white whatwedo-name-text"
+            >
               Мобильные приложения
             </div>
           </li>
@@ -167,7 +179,9 @@
                 alt="Смотрит на цветовую палитру"
                 width="370"
             /></a>
-            <div class="whatwedo-name whatwedo-name-position">
+            <div
+              class="whatwedo-name whatwedo-name-position heading-uppercase heading-uppercase-white whatwedo-name-text"
+            >
               Дизайнерские решения
             </div>
           </li>
@@ -396,7 +410,7 @@
     <footer class="footer">
       <div class="container footer-flex">
         <div>
-          <a lang="en" href="./index.html" class="logo link"
+          <a lang="en" href="./index.html" class="logo footer-logo link"
             ><span class="web">Web</span>Studio</a
           >
           <address class="address">
@@ -406,7 +420,9 @@
           </address>
         </div>
         <div class="footer-margin">
-          <p class="footer-p">присоединяйтесь</p>
+          <p class="footer-p heading-uppercase heading-uppercase-white">
+            присоединяйтесь
+          </p>
           <ul class="flex list">
             <li class="footer-space-icon">
               <a class="icon-footer-list" href="#">
@@ -440,7 +456,9 @@
         </div>
         <!-- Форма в футере -->
         <div class="footer-form-wrapper">
-          <p class="footer-p">Подпишитесь на рассылку</p>
+          <p class="footer-p heading-uppercase heading-uppercase-white">
+            Подпишитесь на рассылку
+          </p>
           <form class="footer-form">
             <input
               class="footer-input"
