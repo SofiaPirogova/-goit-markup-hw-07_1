@@ -1,0 +1,50 @@
+//общие размеры
+.icon-social {
+  width: 20px;
+  height: 20px;
+}
+// main icon
+.icon-ul {
+  padding: 0 32px 30px 32px;
+}
+
+.icon-social-list,
+.icon-social-list:visited {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: $icon-gray;
+  border-radius: 50%;
+
+  transition: background-color $time-duration $timing-function,
+    fill $time-duration $timing-function;
+
+  &:hover,
+  &:focus {
+    border-radius: 50%;
+    background-color: $accent-color;
+    fill: $clean-color;
+  }
+}
+
+// footer icons
+.icon-footer-list,
+.icon-footer-list:visited {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: $clean-color;
+  background-color: $footer-icons;
+  border-radius: 50%;
+
+  transition: background-color $time-duration $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}

@@ -1,0 +1,21 @@
+/* logo styles section our clients */
+.logo-container,
+.logo-container:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $icon-gray;
+  border-radius: 4px;
+  fill: $icon-gray;
+
+  transition: fill $time-duration $timing-function,
+    border-color $time-duration $timing-function;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+}
