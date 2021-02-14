@@ -9,6 +9,52 @@
   letter-spacing: 0.06em;
   border-radius: 4px;
 }
+// баннер
+.order {
+  display: inline-block;
+  padding: 10px 32px;
+  margin-top: 30px;
+  box-shadow: var(--drop-shadow);
+}
+
+/* buttons */
+.button {
+  color: var(--main-color);
+  background-color: var(--light-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 50px;
+  cursor: pointer;
+  outline: none;
+
+  transition: color var(--time-duration) var(--timing-function),
+    background-color var(--time-duration) var(--timing-function),
+    filter var(--time-duration) var(--timing-function);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--clean-color);
+  background-color: var(--accent-color);
+  filter: var(--drop-shadow);
+}
+
+.flex-button {
+  display: flex;
+  justify-content: center;
+}
+
+.space-button:not(:last-child) {
+  margin-right: 8px;
+}
 
 /* modal form button */
 .button-modal {
@@ -20,4 +66,27 @@
   cursor: pointer;
   margin: 0 auto;
   margin-top: 30px;
+}
+// иконки соц сетей
+.icon-social-list,
+.icon-social-list:visited {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--icon-gray);
+  border-radius: 50%;
+  transition: background-color var(--time-duration) var(--timing-function),
+    fill var(--time-duration) var(--timing-function);
+}
+.icon-social-list:hover,
+.icon-social-list:focus {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  fill: var(--clean-color);
+}
+.icon-social {
+  width: 20px;
+  height: 20px;
 }
